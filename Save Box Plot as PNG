@@ -1,0 +1,3 @@
+png("boxplot.png")
+boxplot(mpg ~ cyl, data = mtcars, col="lightblue", main="MPG by Cylinders")
+dev.off()
