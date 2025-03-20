@@ -1,0 +1,2 @@
+plot(mtcars$wt, mtcars$mpg, col="darkgreen", pch=19, 
+     xlab="Weight", ylab="MPG", main="Scatter Plot of Wt vs MPG")
