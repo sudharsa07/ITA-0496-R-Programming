@@ -1,0 +1,2 @@
+model <- glm(am ~ hp + wt, data=mtcars, family=binomial)
+summary(model)
