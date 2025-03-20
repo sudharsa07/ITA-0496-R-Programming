@@ -1,0 +1,1 @@
+barplot(table(iris$Species), col="lightgreen", main="Count of Each Species")
