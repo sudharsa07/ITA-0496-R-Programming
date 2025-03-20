@@ -1,0 +1,2 @@
+library(ggplot2)
+pie(table(diamonds$cut), main="Proportion of Cut Categories")
