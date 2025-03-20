@@ -1,0 +1,1 @@
+hist(iris$Sepal.Length, col="orange", main="Histogram of Sepal Length")
