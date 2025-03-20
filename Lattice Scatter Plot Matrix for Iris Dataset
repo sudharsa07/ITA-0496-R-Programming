@@ -1,0 +1,2 @@
+library(lattice)
+splom(iris[,1:4], groups = iris$Species, col=c("red","blue","green"))
