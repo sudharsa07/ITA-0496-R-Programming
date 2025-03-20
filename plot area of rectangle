@@ -1,0 +1,9 @@
+library(ggplot2)
+
+lengths <- 1:10; widths <- 1:10
+plot_data <- expand.grid(length = lengths, width = widths)
+plot_data$area <- with(plot_data, length * width)
+
+ggplot(plot_data, aes(x = length, y = width, fill = area)) +
+  geom_tile() + scale_fill_gradient(low = "blue", high = "red") +
+  labs(title = "Area Plot", x = "Length", y = "Width") + theme_minimal()
