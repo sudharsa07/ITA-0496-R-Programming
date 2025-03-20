@@ -1,0 +1,2 @@
+plot(mtcars$wt, mtcars$mpg, col="red", main="Wt vs MPG")
+abline(lm(mpg ~ wt, data=mtcars), col="blue", lwd=2)
