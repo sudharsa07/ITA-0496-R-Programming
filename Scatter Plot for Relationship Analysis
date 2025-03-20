@@ -1,0 +1,6 @@
+library(ggplot2)
+
+df <- data.frame(products_sold, prices)
+ggplot(df, aes(x = products_sold, y = prices)) + 
+  geom_point() + geom_smooth(method = "lm", color = "red") +
+  labs(title = "Scatter Plot", x = "Products Sold", y = "Prices")
